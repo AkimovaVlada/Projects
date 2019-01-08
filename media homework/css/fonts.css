@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Playfair display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair display-regular'),local('Playfair display-regular'),
+    url(../fonts/PlayfairDisplay-Regular.woff), format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu-light'), local('Ubuntu-light'),
+    url(../fonts/Ubuntu-Light.woff), format('woff');
+}
