@@ -45,7 +45,8 @@ img {
 }
 
 .content-item {
-    min-width: 310px;
+    max-width: 420px;
+    margin:0 auto;
     margin-bottom: 30px;
 }
 

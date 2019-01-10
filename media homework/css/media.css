@@ -3,9 +3,12 @@
         margin-top: 40px;
         margin-bottom: 70px;
     }
+
     .menu {
+        max-width: 574px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        margin: auto;
     }
 
     .content {
@@ -30,11 +33,6 @@
     .header {
         margin-top: 70px;
         margin-bottom: 100px;
-    }
-
-    .nav-bar {
-        max-width: 574px;
-        margin: auto;
     }
 
     .content {
