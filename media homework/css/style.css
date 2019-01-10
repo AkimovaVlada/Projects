@@ -39,13 +39,18 @@ img {
 }
 
 .content {
-    width: 320px;
+    min-width: 320px;
     margin:0 auto;
-    padding: 0 10px;
+    padding: 5px;
 }
 
 .content-item {
-    max-width: 300px;
+    min-width: 310px;
+    margin-bottom: 30px;
+}
+
+.content-item:last-child{
+    margin-bottom: 0;
 }
 
 .title, .text,

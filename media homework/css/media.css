@@ -9,14 +9,14 @@
     }
 
     .content {
-        min-width: 640px;
+        max-width: 715px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
     .content-item {
-        max-width: 310px;
+        max-width: 320px;
         padding: 5px;
         margin-bottom: 65px;
     }
@@ -37,12 +37,8 @@
         margin: auto;
     }
 
-    .menu {
-        justify-content: space-around;
-    }
-
     .content {
-        min-width: 992px;
+        max-width: 902px;
     }
 
     .content-item {
