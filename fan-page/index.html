@@ -24,7 +24,7 @@
                     <li class="list-item"><a class="menu-link" href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <section class="cover">
+            <section class="cover section">
                 <h1 class="head-title">GO_IT</h1>
                 <p class="head-subtitle"> Поможем каждому создать свою историю успеха</p>
                 <a class="btn-first btn" href="#">Записаться</a>
@@ -33,7 +33,7 @@
     </header>
     <main>
         <div class="wrapper-info wrapper">
-            <section class="info">
+            <section class="info section">
                 <article class="icon-info">
                     <span><i class="fas fa-user-graduate"></i></span> 
                     <p class="date">3114</p>
@@ -52,55 +52,71 @@
             </section>
         </div>
         <div class="wrapper-teacher wrapper">
-            <section class="teacher">
+            <section class="teacher section">
                 <h2 class="teacher-title title">Наставники</h2>
-                <article class="card">
-                    <img src="img/card1-min.jpg" class="img-card" alt="woman">
-                    <h3 class="card-title article-title">София Гордиенко</h3>
-                    <p class="card-subtitle">Soft skills</p>
-                    <p class="card-text article-text">Project manager, SM,PO</p>
-                </article>
-                <article class="card">
-                    <img src="img/card2-min.jpg" class="img-card" alt="man">
-                    <h3 class="card-title article-title">Антон Черный</h3>
-                    <p class="card-subtitle">Project manager</p>
-                    <p class="card-text article-text">CEO</p>
-                </article>
-                <article class="card">
-                    <img src="img/card3-min.jpg" class="img-card" alt="man">
-                    <h3 class="card-title article-title">Влад Гребенников</h3>
-                    <p class="card-subtitle">FullStack</p>
-                    <p class="card-text article-text">Chief Technical Officer</p>
-                </article>
-                <article class="card">
-                    <img src="img/card4-min.jpg" class="img-card" alt="man">
-                    <h3 class="card-title article-title">Иван Мельничук</h3>
-                    <p class="card-subtitle">Java</p>
-                    <p class="card-text article-text">Java developer</p>
-                </article>
+                <div class="card-wrapper">
+                    <article class="card">
+                        <img src="img/card1.jpg" class="img-card" alt="woman">
+                        <h3 class="card-title article-title">София Гордиенко</h3>
+                        <p class="card-subtitle">Soft skills</p>
+                        <p class="card-text article-text">Project manager, SM,PO</p>
+                    </article>
+                    <article class="card">
+                        <img src="img/card2.jpg" class="img-card" alt="man">
+                        <h3 class="card-title article-title">Антон Черный</h3>
+                        <p class="card-subtitle">Project manager</p>
+                        <p class="card-text article-text">CEO</p>
+                    </article>
+                    <article class="card">
+                        <img src="img/card3.jpg" class="img-card" alt="man">
+                        <h3 class="card-title article-title">Влад Гребенников</h3>
+                        <p class="card-subtitle">FullStack</p>
+                        <p class="card-text article-text">Chief Technical Officer</p>
+                    </article>
+                    <article class="card">
+                        <img src="img/card4.jpg" class="img-card" alt="man">
+                        <h3 class="card-title article-title">Иван Мельничук</h3>
+                        <p class="card-subtitle">Java</p>
+                        <p class="card-text article-text">Java developer</p>
+                    </article>
+                </div>
             </section>
         </div>
         <div class="cource-wrapper wrapper">
-            <section class="cource">
+            <section class="cource section">
                 <h2 class="cource-title title">Курсы в GO_IT</h2>
                 <div class="cource-item-wrapper">
                     <article class="cource-item">
-                        <img src="img/img1-min.jpg" alt="Students">
-                        <h3 class="cource-title article-title"></h3>
-                        <p class="cource-text"></p>
+                        <img src="img/img1-min.jpg" alt="Students" class="cource-img">
+                        <h3 class="cource-title article-title">Front-End</h3>
+                        <p class="cource-text article-text">С нас - актуальный и доступный курс, сопровождение ментором и реальные проэктыв портфолио. Ждем тебя!</p>
                     </article>
-                    <article class="cource-item article-text">
-                        <img src="img/img2-min.jpg" alt="Students">
-                        <h3 class="cource-title article-title"></h3>
-                        <p class="cource-text"></p>
+                    <article class="cource-item article-title">
+                        <img src="img/img2-min.jpg" alt="Students" class="cource-img">
+                        <h3 class="cource-title article-title">GO Java</h3>
+                        <p class="cource-text article-text">Освой Java и напиши свою программу! (или умную технику - кто знает) </p>
                     </article>
-                    <article class="cource-item article-text">
-                        <img src="img/img3-min.jpg" alt="Students">
-                        <h3 class="cource-title article-title"></h3>
-                        <p class="cource-text article-text"></p>
+                    <article class="cource-item article-title">
+                        <img src="img/img3-min.jpg" alt="Students" class="cource-img">
+                        <h3 class="cource-title article-title">PHP & Wordpress</h3>
+                        <p class="cource-text article-text">Научись создавать web-продукты с нуля без помощи других специалистов. Это востребовано</p>
                     </article>
                 </div>
                 <a class="btn-second btn" href="#">Узнать больше</a>
+            </section>
+        </div>
+        <div class="student-wrapper wrapper">
+            <section class="stuedent section">
+                <h2 class="student-title title">Наши выпускники</h2>
+                <ul class="album">
+                    <li class="list-image"><img class="student-image" src="img/photo1.jpg" alt="photo our students"></li>
+                    <li class="list-image one"><img class="student-image " src="img/photo2-min.jpg" alt="photo our students"></li>
+                    <li class="list-image"><img class="student-image" src="img/photo3-min.jpg" alt="photo our students"></li>
+                    <li class="list-image"><img class="student-image" src="img/photo4-min.jpg" alt="photo our students"></li>
+                    <li class="list-image"><img class="student-image" src="img/photo5-min.jpg" alt="photo our students"></li>
+                    <li class="list-image"><img class="student-image" src="img/photo6-min.jpg" alt="photo our students"></li>
+                </ul>
+                <a class="btn-third btn" href="#">Увидеть больше</a>
             </section>
         </div>
     </main>

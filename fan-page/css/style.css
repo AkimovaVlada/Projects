@@ -24,7 +24,7 @@ a{
 .wrapper {
     min-width: 320px;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .navbar {
@@ -46,7 +46,8 @@ a{
     margin: 10px 0;
 }
 
-.menu-link, .btn-first{
+.menu-link, .btn-first,
+.btn-second, .btn-third {
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 700;
@@ -68,10 +69,11 @@ a{
 .cover {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .head-title {
-    font-family: 'Lato';
+    font-family: 'Open Sans';
     color: #FF6D00;
     font-weight: 900;
     font-size: 70px;
@@ -110,19 +112,19 @@ a{
     box-shadow: 0px 0px 59px -2px rgba(255,109,0,0.99);
 }
 
-.wrapper-info {
+.wrapper-info, .student-wrapper {
     background: #F9F9F9;
 }
 .info {
     padding-top: 30px;
     min-width: 320px;
     text-align: center;
-    justify-content: center;
 }
 
 .icon-info {
-    min-width: 320px;
+    max-width: 320px;
     margin-bottom: 30px;
+    margin: 0 auto;
 }
 
 .icon-info:last-child {
@@ -155,10 +157,11 @@ a{
 }
 
 .wrapper-teacher{
-    background-image: url(../img/main-bg-min.jpg);
+    background-image: url(../img/bg1920jpeg.jpeg);
     width: 100%;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title {
@@ -187,18 +190,61 @@ a{
     padding-bottom: 50px;
 }
 
-.card-title {
+.article-title {
     font-family: 'Open Sans';
     font-weight: 700;
     color: #e6e6e6;
     font-size: 25px;
-    padding: 10px 0 5px 0;
+    margin-top: 20px;
+    padding-bottom: 10px;
 }
 
-.card-subtitle, .card-text {
+.card-subtitle, .article-text {
     font-family: 'Roboto';
     color: #e6e6e6;
     font-weight: 400;
     line-height: 1.6em;
+    font-size: 14px;
 }
 
+.cource-title {
+    color: #0A1225;
+}
+
+.cource-item, .list-image {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.cource-img, .student-image {
+    width: 100%;
+}
+
+.cource-text{
+    color: #0A1225;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+.btn-second {
+    margin-top: 20px;
+}
+
+.album {
+    list-style: none;
+}
+
+.student-title{
+    color: #0A1225;
+}
+
+.list-image {
+    margin-bottom: 20px;
+}
+
+.list-image:last-child{
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
