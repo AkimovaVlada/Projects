@@ -12,7 +12,6 @@
     width: 100%;
 }
 
-
 img {
     display: block;
 }
@@ -48,7 +47,7 @@ a{
 
 .menu-link, .btn-first,
 .btn-second, .btn-third {
-    font-family: 'Roboto';
+    font-family: Roboto,sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -73,7 +72,7 @@ a{
 }
 
 .head-title {
-    font-family: 'Open Sans','sans-serif';
+    font-family: Open Sans,sans-serif;
     color: #FF6D00;
     font-weight: 900;
     font-size: 70px;
@@ -82,7 +81,7 @@ a{
 }
 
 .head-subtitle {
-    font-family: 'Open Sans';
+    font-family: Open Sans,sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #e6e6e6;
@@ -141,7 +140,7 @@ a{
 
 .date, 
 .info-text {
-    font-family: 'Roboto','sans-serif';
+    font-family: Roboto,sans-serif;
     font-weight: 700;
     color: #0A1225;
     text-transform: uppercase;
@@ -166,7 +165,7 @@ a{
 }
 
 .title {
-    font-family: 'Open Sans';
+    font-family: Open Sans,sans-serif;
     color: #ffffff;
     font-weight: 700;
     font-size: 40px;
@@ -192,7 +191,7 @@ a{
 }
 
 .article-title {
-    font-family: 'Open Sans';
+    font-family: Open Sans,sans-serif;
     font-weight: 700;
     color: #e6e6e6;
     font-size: 25px;
@@ -201,7 +200,7 @@ a{
 }
 
 .card-subtitle, .article-text {
-    font-family: 'Roboto';
+    font-family: Roboto,sans-serif;
     color: #e6e6e6;
     font-weight: 400;
     line-height: 1.6em;
